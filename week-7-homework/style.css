@@ -1,5 +1,6 @@
 body {
   background: #f9f7fe;
+  font-family: Roboto Slab;
 }
 .weather-app {
   background-color: white;
@@ -12,7 +13,16 @@ body {
 .placeholder {
   background: #f9f7fe;
   padding: 15px;
+  border-radius: 6px;
+  border: none;
+  width: 75%;
 }
 .search-button {
   background-color: chartreuse;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  line-height: 1;
+  border-radius: 5px;
+  margin-left: 10px;
 }
