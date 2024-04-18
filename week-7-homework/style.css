@@ -2,6 +2,9 @@ body {
   background: #f9f7fe;
   font-family: Roboto Slab;
 }
+a {
+  color: chartreuse;
+}
 .weather-app {
   background-color: white;
   margin: 60px auto;
@@ -25,4 +28,18 @@ body {
   line-height: 1;
   border-radius: 5px;
   margin-left: 10px;
+}
+main {
+  padding: 35px;
+}
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  font-size: 15px;
+  color: rgba(39, 33, 66, 0.4);
+  padding-top: 15px;
+  text-align: center;
+  border-top: 1px solid #f9f7fe;
 }
