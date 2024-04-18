@@ -42,8 +42,6 @@ main {
 }
 .temperature-value {
   font-size: 20px;
-  display: flex;
-  justify-content: space-between;
 }
 p strong {
   color: #c31207;
