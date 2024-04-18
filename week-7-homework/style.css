@@ -3,7 +3,7 @@ body {
   font-family: Roboto Slab;
 }
 a {
-  color: chartreuse;
+  color: #00aaa0;
 }
 .weather-app {
   background-color: white;
@@ -21,7 +21,7 @@ a {
   width: 75%;
 }
 .search-button {
-  background-color: chartreuse;
+  background-color: #00aaa0;
   color: white;
   border: none;
   padding: 15px 30px;
@@ -31,6 +31,26 @@ a {
 }
 main {
   padding: 35px;
+}
+.current-city {
+  font-size: 35px;
+  margin: 0;
+  line-height: 40px;
+}
+.temperature {
+  font-size: 50px;
+}
+.temperature-value {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+p strong {
+  color: #c31207;
+}
+p {
+  font-size: 18px;
+  line-height: 20px;
 }
 .weather-details {
   display: flex;
