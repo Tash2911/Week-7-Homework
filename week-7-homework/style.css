@@ -37,11 +37,18 @@ main {
   margin: 0;
   line-height: 40px;
 }
-.temperature {
-  font-size: 50px;
+.temperature-icon {
+  font-size: 40px;
+  position: relative;
+  top: -15px;
 }
 .temperature-value {
-  font-size: 20px;
+  font-size: 70px;
+}
+.temperature-unit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
 }
 p strong {
   color: #c31207;
