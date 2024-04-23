@@ -38,12 +38,13 @@ main {
   line-height: 40px;
 }
 .temperature-icon {
-  font-size: 40px;
   position: relative;
-  top: -15px;
+  top: 28px;
 }
 .temperature-value {
   font-size: 70px;
+  margin: none;
+  line-height: 88px;
 }
 .temperature-unit {
   font-size: 28px;
